@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulário de Inscrição</h1>
+    </header>
+
+    <br>
+
+    <section id="formularioDeInscricao">
+        <form action="">
+
+            <label for="nomeUser">Nome:</label>
+            <br>
+            <input type="text" name="nomeUsuario" id="nomeUser">
+            <br><br>
+            <label for="emailUser">Email:</label>
+            <br>
+            <input type="email" name="emailUsuario" id="emailUser" placeholder="Ex: usuario@email.com">
+            <br><br>
+            <label for="whatsappUser">WhatsApp:</label>
+            <br>
+            <input type="number" name="whatsappUsuario" id="whatsappUser" placeholder="Ex: (64) 992873378">
+            <br><br>
+
+            <label>Área de Atuação:</label>
+            <br>
+            <input type="radio" name="DEV" id="atuacaoDEV">
+            <label for="atuacaoDEV">Desenvolvimento</label>
+            <input type="radio" name="QA" id="atuacaoQA">
+            <label for="atuacaoQA">Quality Assurance</label>
+            <input type="radio" name="AD" id="atuacaoAD">
+            <label for="atuacaoAD">Análise de Dados</label>
+            <input type="radio" name="IF" id="atuacaoIF">
+            <label for="atuacaoIF">Infraestrutura</label>
+
+            <br><br>
+
+            <label for="observacoes">Observações:</label>
+            <br><br>
+            <textarea name="observacoesUser" id="observacoes" cols="30" rows="10" placeholder="Escreva alguma observação..."></textarea>
+
+            <br><br>
+
+            <input type="checkbox" name="receberNotificacoes" id="notificacoes">
+            <label for="notificacoes">Desejo receber notificações por email.</label>
+
+            <br><br>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+    </section>
+    
+</body>
+</html>

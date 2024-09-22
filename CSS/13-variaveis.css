@@ -1,0 +1,30 @@
+/* Declarando uma variável */
+:root {
+    --cor--principal: #3c59e7;
+    --cor-claro: #ccb8b8;
+    --cor-escuro: #232323;
+    --preenchimento-pequeno: .25rem 1rem;
+    --preenchimento-medio: 2rem;
+    --preenchimento-grande: 4rem;
+}
+
+header {
+    background-color: var(--cor-escuro);
+    color: var(--cor-claro);
+    padding: var(--preenchimento-pequeno);
+}
+
+section {
+    background-color: var(--cor-claro);
+    padding: var(--preenchimento-medio);
+}
+
+div {
+    background-color: var(--cor--principal);
+    color: var(--cor-claro);
+
+    /* É possível alterar o valor de uma variável apenas dentro de um elemento,
+    como nesse caso: */
+    --preenchimento-medio: 4rem;
+    padding: var(--preenchimento-medio);
+}

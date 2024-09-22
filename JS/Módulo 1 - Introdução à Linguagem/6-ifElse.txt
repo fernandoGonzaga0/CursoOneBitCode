@@ -1,0 +1,19 @@
+Sintaxe:
+
+    if (condicao) {
+
+    } else if (condicao n1) {
+
+    } else if (condicao n2) {
+
+    } else if (condicao n3) {
+         
+    } else {
+        //fim
+    }
+
+Operador Ternário: é uma opção mais direta de realizar essa condicional.
+
+    Ex: const resultado = condicao ? resultado_verdadeiro : resultado_falso
+
+        const resultado = (6 === 6) ? "O resultado é Verdadeiro" : "O resultado é Falso"

@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-color: darkgrey;
+    height: 100px;
+}
+
+header {
+    background-color: #232323;
+    color: #f0f8ff;
+    padding: 10px ;
+}
+
+.box {
+    border: 2px solid #3b3434;
+    display: inline-block;
+    margin-top: 20px;
+    width: 75px;
+    text-align: center;
+}
+
+.px {
+    height: 10px;
+}
+
+/* Root element: usa o tamanho do elemento raiz como base, 3rem seria 3 vezes 16px por ex.*/
+
+.rem {
+    font-size: 32px;
+    height: 3rem;
+}
+
+/* em: usa o tamanho atual do elemento para fazer o cálculo de medida. Se alterármos o tamanho fonte 
+de um ID pelo CSS, o em será aplicado multiplicando a partir desse tamanho atual. */
+
+.em {
+    font-size: 32px;
+    height: 3em;
+}
+
+/* Porcentagem: sempre utiliza a porcentagem referente ao elemento pai. */
+
+.prcnt-33 {
+    height: 33%;
+}
+
+.prcnt-66 {
+    height: 66%;
+}
+
+.prcnt-100 {
+    height: 100%;
+}
+
+/* Viewport Height: porcentagem baseada na área de visualização. 
+Na sessão abaixo é aplicado 30%do tamanho vertical na tela de exibição*/
+
+.vh {
+    height: 30vh;
+}
+
+/*Viewport width: porcentagem baseada na área de visualização.
+Agora aplicada horizontalmente. */
+
+.vw {
+    width: 30vw;
+}
+
+
+

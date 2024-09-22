@@ -1,0 +1,13 @@
+O for também é uma estrutura de repetição, para a seguinte especificidade:
+
+Inicialização: expressão executada antes de tudo.
+Condição: condição semelhante ao while, é testada antes da execução do bloco de repetição.
+Finalização: expressão executada após o bloco de repetição.
+
+Ex: para INICIALIZAÇÃO; CONDIÇÃO; FINALIZAÇÃO faça algo.
+
+Sintaxe:
+
+for (Inicialização; condição; finalização) {
+    // ...
+}

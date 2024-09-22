@@ -1,0 +1,15 @@
+No JavaScript é possível realizar diferentes validações de igualdade.
+
+Se usarmos o "==", estamos apenas verificando se o valor é igual.
+
+        Por ex: 10 == "10" resultaria em true, pois o valor em si é igual.
+
+Se usarmos o "===", estamos validando o valor e o TIPO.
+
+        Logo: 10 === "10" resultaria em false.
+
+O mesmo se aplica a:
+
+        != e !==
+        > e >=
+        < e <=

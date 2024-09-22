@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
+/*font-family: 'DM Mono', monospace;*/
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+/* font-family: 'Kalam', cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(181, 187, 192);
+}
+
+.principalTitle {
+    text-align: center;
+    margin: 1rem;
+    height: 3rem;
+    font-size: 3rem;
+    font-family: 'DM Mono', monospace;
+    font-weight: 700;
+}
+
+.text {
+    text-align: center;
+    margin: 1rem;
+    font-family: 'Kalam', cursive;
+    font-size: 0.9rem;
+}
+
+.main {
+    text-align: center;
+}
+
+.main2 > button, .main5 > button {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    background-color: #000000;
+    font-family: 'DM Mono', monospace;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#buttonMain4 {
+    padding: 0.7rem;
+    border-radius: 2rem;
+    background-color: #000000;
+    font-family: 'DM Mono', monospace;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover, #buttonMain4:hover {
+    background-color: #9cd2f4;
+    transition: 1s;
+}
+
+#imgID {
+    height: 17rem;
+    /* margin-left: 50%;
+    margin-left: 50%; */
+}
+
+.title {
+    text-transform: capitalize;
+    font-family: 'DM Mono', monospace;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0.8rem;
+}
+
+.buttonMain {
+    padding: 0.7rem;
+    border-radius: 2rem;
+    border: transparent;
+    font-family: 'DM Mono', monospace;
+    color: #ffffff;
+    background-color: #028de4;
+    cursor: pointer;
+}
+
+.footerClass {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 1.55rem;
+    text-align: center;
+    font-family: 'Kalam', cursive;;
+}

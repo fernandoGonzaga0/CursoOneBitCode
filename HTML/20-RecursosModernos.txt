@@ -1,0 +1,13 @@
+Recursos modernos do HTML 5:
+
+A versão 5 é a mais atual do HTML, destacamos nessa versão:
+
+Novidades -> 
+
+            1 - Novas tags semânticas como: header, nav, section, article, aside, footer, etc.
+
+            2 - Melhorias nos elementos de formulário, como input com novos tipos (email, tel, date, etc) e
+            atributos como required, placeholder, pattern.
+
+            3 - Novas tags de áudio e vídeo para incorporar as páginas.
+

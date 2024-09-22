@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-left: 15px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+li {
+    background-color: #1c1a1d;
+    border: 4px solid transparent;
+    border-radius: 4px;
+    color: #ffffff;
+    margin-top: 32px;
+    margin-left: 32px;
+    padding: 32px;
+    height: 250px;
+    width: 400px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.selected {
+    background-color: #4f4c51;
+    border: 4px solid aqua;
+}
+
+.hidden {
+    display: none;
+}

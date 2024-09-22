@@ -1,0 +1,8 @@
+Do While é semelhante ao while, porém ele garante que o bloco de código será
+executado pelo menos uma vez, mesmo que a condição seja falsa.
+
+do {
+
+} while (condição)
+
+

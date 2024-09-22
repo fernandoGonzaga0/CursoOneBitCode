@@ -1,0 +1,11 @@
+While: serve para criar um laço de repetição que será
+executado enquanto uma determinada condição for verdadeira.
+
+É importante que sempre exista uma forma da condição se tornar 
+falsa, ou então o bloco ficará se repetindo para sempre.
+
+Sintaxe: 
+
+    while(condicao) {
+        // ...
+    }

@@ -1,0 +1,40 @@
+/* É imnportante lembrar que na estrutura do box model, existe o conteúdo após o texto (padding),
+a borda e o conteúdo fora da borda (margin). */
+
+body {
+    background-color: #a9a9a9;
+}
+
+.box1 {
+    color: rgb(255, 255, 255);
+    background-color: #ff4444;
+    border: 8px solid #000000;
+    text-align: center;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.box2 {
+    color: #ff0000;
+    background-color: #000000;
+    border: 8px solid #ffffff;
+    text-align: center;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin-top: 200px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+}

@@ -1,0 +1,16 @@
+WAI-ARIA e atributos de acessibilidade:
+
+Acessibilidade: garantir inclusão digital e acesso igualitário a informações e serviços na web.
+
+Os quatro pilares da acessibilidade segunda a WCAG (Web Content Accessibility Guidelines):
+
+    Perceptível: garantir que os conteúdos sejam apresentados de maneira clara e adaptável, permitindo
+    a personalização.
+
+    Operável: facilitar a interação e a navegação, tornando a web utilizável por diversos dispositivos
+    e tecnologias assistivas (uso através do teclado/facilitar localização e navegação).
+
+    Compreensível: tornar a informação e o funcionamento dos elementos claros e fáceis de entender (textos
+    legíveis e compreensíveis/correção e prevenção de erros).
+
+    Robusto: criar conteúdos que possam ser interpretados de forma consistente por uma variedade de agentes do usuário.

@@ -1,0 +1,66 @@
+Link para o mapa mental utilizado pela OneBitCode demonstrando toda a trilha de JavaScript: https://www.mindmeister.com/app/map/3159273608.
+
+O que é uma linguagem de programação? 
+
+    Conjunto de códigos que contém instruções para o computador;
+    Diferente de linguagem de marcação como HTML e linguagem de estilização como CSS;
+    Podem ser de alto nível ou de baixo nível;
+    
+Tipos de Dados no JS:
+
+    Primitivos: number e bigint (números grandes), string, boolean, null (nulo) e undefined (qualquer coisa sem definição).
+    Objetos: estrutura onde existem vários valores, diferentes ou não.
+    Funções: procedimentos que podem ser executados.
+
+Variáveis:
+
+    Servem para armazenar dados para podermos usá-los no nosso código.
+    Ex: var, let (preferível a var) e const.
+
+Nomes de variáveis:
+
+    É importante pensar bem em nomes para as variáveis.
+
+    Ex: 
+        let a = "FERNANDO"  <--- EXEMPLO DE MAU USO
+
+        let primeiraPessoa = "FERNANDO" <--- EXEMPLO DE BOM USO 
+
+Cases:
+
+    let camelCase = "Camel Case"
+
+    let snake_case = "Snake Case"
+
+Operadores no JavaScript:
+
+    Aritméticos: +, -, *, / e %.
+
+                Agrupamento: ()
+
+                Atribuição: =, +=, -=, *= e %=.
+                        
+                        Na atribuição, é atribuído um valor na própria variável de referência.
+                            Ex: let a = 5
+                                a + 3 
+                                //o resultado dessa soma é 8, mas a variável "a" ainda vale 5.
+                                a += 5
+                                //agora a variável vale 10
+
+                Encadeamento: exemplo.Encadeamento
+
+                Incrementar: ++ (incrementa 1)
+
+                Decrementar: -- (decrementa 1)
+
+                Precedência no JS: soma > subtração > multiplicação > divisão > resto.
+
+    Expressões:
+
+                A própria linha de código.
+
+Operadores Lógicos: 
+
+        E (and) = &&
+        Ou (or) = || 
+        Não (not) = !

@@ -1,0 +1,5 @@
+Sobre os formulários, eles são compostos por elementos HTML que possibilitam a criação de campos de entrada,
+botões de envio e outras funcionalidades interativas.
+
+São compostos por: uma tag <form> com os atributos "action" e "method"; campos a serem preenchidos, como 
+<input> ou <select>; um botão para enviar, ou "submeter" o formulário: <button type="submit">.

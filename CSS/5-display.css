@@ -1,0 +1,33 @@
+/* inline: não quebra de linha, mantém largura mínima, não aceita margem vertical.*/
+
+p {
+    border: 2px solid black;
+}
+
+.inline {
+    display: inline;
+    margin-top: 400000px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 3000000000px;
+}
+
+/* block: quebra de linha, ocupa toda a largura possível, aceita margem e preenchimento vertical e horizontal */
+.block {
+    display: block;
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-left: 50px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    margin-right: 50px;
+}
+
+/* inline-block: não quebra linha,  */
+
+.inline-block {
+    display: inline-block;
+    margin-top: 50px;
+    padding-top: 50px;
+}

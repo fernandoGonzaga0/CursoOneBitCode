@@ -1,0 +1,27 @@
+Especificidade:
+
+A especificidade determina a ordem de prioridade das regras CSS que se aplicam a elementos HTML.
+
+Ordem de aplicação de regras:
+
+        Pelo formato de cascata do CSS os estilos são aplicados em uma ordem.
+        Regras definidas inline têm a maior especificidade (inline = no HTML).
+        Regras em arquivos externos são aplicadas por último e têm menor especificidade.
+
+Especificidade dos seletores:
+
+        Seletores universais (*) têm baixa especificidade.
+        Seletores de tipo (tag) têm uma especificidade maior que os universais.
+        Seletores de classe e atributo têm maior especificidade que os seletores de tipo.
+        Seletores de ID têm maior especificidade que os seletores acima.
+
+Combinação de seletores:
+
+        Quando múltiplos seletores se aplicam a um elemento, suas especificidades se somam.
+        A ordem dos seletores também importa em casos de empate na especificidade. O último escrito prevalece.
+
+!important :
+
+        O !important sobrepõe todas as outras regras de especificidade.
+        Evite usar essa ferramenta pois a longo prazo, o código pode ficar muito denso para se localizar erros.
+

@@ -1,0 +1,29 @@
+/* seletor :nth-child() = usado para encontrar os elementos filhos. É possível aplicar configurações a partir da sequência informada dentro de ()*/
+
+li:nth-child(2n) {
+    color: brown;
+}
+
+/* Seletores também são aplicados a estados de elementos. Ex: tag com o mouse em cima. */
+h1:hover {
+    background-color: blueviolet;
+}
+
+input:focus {
+    background-color: #ff0000;
+}
+
+/* 
+    Pseudoelementos -> ::before e ::after
+    São conteúdos que não necessariamente existem no código, mas podem ser aplicados
+    pelo CSS. 
+*/
+li::before {
+    content: "(antes)";
+    color: blue;
+}
+
+li::after {
+    content: "(depois)";
+    color: yellowgreen;
+}

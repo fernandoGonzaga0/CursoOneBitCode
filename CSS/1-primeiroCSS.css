@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+
+#titulo {
+    color: hsl(101, 100%, 50%);
+}
+
+#p1 {
+    color: antiquewhite;
+}
+
+#p2 {
+    color: tomato;
+}
+

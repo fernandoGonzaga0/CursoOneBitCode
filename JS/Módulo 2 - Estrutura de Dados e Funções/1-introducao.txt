@@ -1,0 +1,25 @@
+Estrutura de Dados: são um modo particular de armazenar e organizar dados de modo que possam ser usados eficientemente, facilitando
+sua busca e modificação.
+
+Estrutura de Dados Clássicas: 
+
+    Lista ligada = Coleção ordenada de valores onde cada elemento aponta para o próximo.
+    
+    Array = Coleção de elementos que podem ser identificados por um índice.
+    
+    Fila (Queue) = Coleção de elementos onde o primeiro elemento a ser retirado deve ser o primeiro elemento adicionado (FIFO).
+    
+    Pilha (Stack) = Coleção de elementos onde o último elemento inserido é o primeiro a ser retirado (LIFO).
+    
+    Árvore (Tree) = Conjunto de elementos chamados de nós (nodes), organizados em estrutura hierárquica (não sequencial), ou seja, 
+    podendo estar abaixo ou acima de outros nós (ex: estrutura de página HTML).
+
+Estruturas de Dados no Javascript:
+
+    Listas (Arrays).
+    Dicionários (Objetos).
+
+Valor e Referência: em JS, pensando em arrays e objetos, eles trabalham com referência.
+
+    ex:
+        se eu crio um array1 = [1, 2, 3] e crio um array2 = array1, ao alterar o array2 eu altero o array1 também.

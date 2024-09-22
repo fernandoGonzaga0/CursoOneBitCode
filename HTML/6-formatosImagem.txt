@@ -1,0 +1,22 @@
+É importante que uma página web esteja sempre otimizada. Páginas pesadas demoram para carregar, gerando uma 
+experiência ruim. Páginas pesadas consomem mais dados, o que é ruim para quem tem dados limitados.
+
+Um dos aspectos que mais pode atrapalhar uma página web são suas imagens.
+
+Como otimizar as imagens?
+
+1) Utilize os formatos corretos: 
+
+        JPEG: formato de mais qualidade, porém mais pesado.
+        PNG: formato inferior ao JPEG, mas que pode ser comprimido mantendo a qualidade.
+        WEBP: formato criado especificamente para a web pelo Google, oferece o melhor equilíbrio entre
+        qualidade e tamanho reduzido.
+        SVG: formato usado para vetores, que são imagens geométricas super leves e que podem escalar para qualquer
+        tamanho.
+
+2) Utilize os tamanhos corretos: 
+
+        Imagens grandes demais ficam pesadas e pequenas demais ficam pixeladas;
+        Se necessário, use o atributo "srcset" para definir diferentes dispositivos;
+
+3)Comprima a imagem, se possível.
