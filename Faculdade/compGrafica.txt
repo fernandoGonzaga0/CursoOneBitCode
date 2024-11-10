@@ -1,0 +1,4 @@
+Para rasterização do triangulo, temos que primeiramente marcar todos os pontos de dentro do triangulo
+
+Todos os pontos de dentro do triangulo (alfa, beta, gama) são maiores ou iguais a zero e sua soma total é 1.
+
