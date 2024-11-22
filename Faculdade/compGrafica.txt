@@ -1,4 +1,45 @@
-Para rasterização do triangulo, temos que primeiramente marcar todos os pontos de dentro do triangulo
+OBJETOS GRÁFICOS
 
-Todos os pontos de dentro do triangulo (alfa, beta, gama) são maiores ou iguais a zero e sua soma total é 1.
+Para trabalharmos com objetos reais, precisamos: 
+descrevê-los matematicamente -> escolher uma representação -> implementar computacionalmente a representação
+Exemplos de objetos 2D: imagem, reta, círculo, regiões planas.
 
+Representação vetorial: 
+● Elementos básicos são: pontos, linhas, curvas,
+superfícies e sólidos (primitivas vetoriais)
+● Possuem:
+– Atributos: Definem a aparência (ex.: cor)
+– Geometria: Definem a forma local do objeto gráfico
+(ex.: coordenadas dos pontos)
+– Topologia: Definem a forma global do objeto gráfico
+(ex.: como os pontos se ligam)
+● Representação usada para
+– Modelagem geométrica e síntese de imagens
+– Dispositivos de saída vetoriais
+– Impressoras do tipo plotter
+● Possibilita representação
+contínua do objeto
+– Sujeito à precisão da máquina
+
+Representação matricial:
+● Imagem é descrita por um conjunto de
+células, em um arranjo espacial 2D (matriz).
+Cada célula representa um pixel (picture
+element)
+● Para cada pixel, é armazenado sua cor com
+um certo número de bits
+– Representação no espaço de cor RGB (8 bits
+por canal)
+(R,G,B) = (199, 163, 101)
+– Pode ser armazenado como:
+● Uma cor por cada elemento da matriz;
+● Uma matriz para todas entradas R, outra para
+todas entradas G e outra para B.
+● Representação usada para
+imagens / vídeos
+– Armazenamento em memória
+– Exibição em telas LCD
+– Impressoras convencionais
+– Captura com scanners 2D
+– Captura com câmeras digitais
+– Processamento de imagens
