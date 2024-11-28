@@ -1,0 +1,3 @@
+function funcaoClick() {
+    alert('Enter')
+}

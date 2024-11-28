@@ -1,0 +1,9 @@
+Objetivos:
+
+Juntar as peças, combinando HTML, CSS e JavaScript.
+
+Como criar comportamentos dinâmicos nas páginas web.
+
+O que é DOM e como manipulá-lo.
+
+Eventos.

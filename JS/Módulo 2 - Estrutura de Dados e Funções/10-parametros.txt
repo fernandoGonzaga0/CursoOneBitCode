@@ -1,0 +1,10 @@
+Em funções, parâmetros são as entradas.
+
+Ele é como uma variável que fica disponível dentro da função, sendo informada
+na hora de chamar a função. 
+
+function dobro(x) {
+    console.log(`O dobro de ${x} é ${a, b}`)
+}
+
+dobro(5) -> valor impresso: 10

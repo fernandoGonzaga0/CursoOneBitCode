@@ -1,0 +1,2 @@
+var é um tipo de variável que não é muito utilizado, sua leitura vem sempre antes da inicialização
+do código de fato, tornando-o imprevisível em alguns casos.

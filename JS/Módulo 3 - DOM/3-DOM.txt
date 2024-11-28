@@ -1,0 +1,26 @@
+Document Object Model
+
+É a transformação do documento HTML em um grande objeto em javascript.
+
+O DOM é feito através de uma estrutura de árvore de objetos.
+
+Obtendo elementos HTML do DOM:
+
+Obter vários elementos em uma HTMLCollection -> 
+
+                                                document.getElementByTagName() 
+                                                // é criado um objeto que irá conter todo o conteúdo selecionado
+                                                document.getElementByClassName()
+                                                // igual
+
+Obter vários elementos em uma NodeList -> 
+
+                                        document.getElementByName()
+                                        // elementos serão adicionados a uma lista node 
+                                        document.querySelectorAll()
+                                        // igual 
+
+Obtendo um único elemento -> 
+
+                            document.getElementById()
+                            document.querySelector()

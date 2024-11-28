@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escalação de time</title>
+    <script src="./7-ex1-Time.js"></script>
+</head>
+
+<body>
+    <h1>MONTE SEU TIME</h1>
+    <hr>
+    <h2>Escale um jogador</h2>
+    <p>
+        <label for="posicaoJogador">Posição:</label>
+        <input type="text" name="posicaoJogador" id="posicaoJogador">
+        <label for="nomeJogador">Nome:</label>
+        <input type="text" name="nomeJogador" id="nomeJogador">
+        <label for="numeroJogador">Número:</label>
+        <input type="text" name="numeroJogador" id="numeroJogador">
+        <button onclick="escalarJogador()">Enviar</button>
+    </p>
+    <h2>Remova um jogador</h2>
+    <p>
+        <label for="removerJogador">Número:</label>
+        <input type="text" name="removerJogador" id="removerJogador">
+        <button onclick="removerJogador()">Enviar</button>
+    </p>
+    <h2>TIME:</h2>
+    <ul id="timeAtual"></ul>
+
+</body>
+
+</html>

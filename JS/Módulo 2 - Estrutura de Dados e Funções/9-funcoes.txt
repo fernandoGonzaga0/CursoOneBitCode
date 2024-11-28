@@ -1,0 +1,12 @@
+Função é uma estrutura do JS que permite declarar um procedimento e executá-lo
+programaticamente.
+
+Estrutura -> entrada | procedimento | saída
+
+Sintaxe:
+
+    function nomeDaFuncao(entradas) {
+        const a = 1
+        const b = 2
+        return (a + b)
+    }

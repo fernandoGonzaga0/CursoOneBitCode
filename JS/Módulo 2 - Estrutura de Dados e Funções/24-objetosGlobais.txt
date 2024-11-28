@@ -1,0 +1,19 @@
+Objetos globais da linguagem JavaScript:
+
+1) Object
+2) Array
+
+    Ex:
+        let lista = Array('A', 'B', 'C')
+        console.log(lista) -> ['A', 'B', 'C']
+
+3) String
+4) Number
+
+    Ex:
+        Number.isInteger(4.5) // podemos chamar esses objetos globais e funções que eles possuem
+        false
+
+5) Date
+6) Math
+
