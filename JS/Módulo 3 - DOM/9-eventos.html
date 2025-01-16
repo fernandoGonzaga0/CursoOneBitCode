@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Enviando Valores do DOM para o Javascript</title>
-  <script src="./8-enviandoValores.js"></script>
+  <title>Trabalhando com Eventos</title>
+  <script src="./9-eventos.js" defer></script>
+<!-defer fará com que o Javascript seja carregado após a página HTML, garantindo que as funções serão criadas no momento correto.-->
 </head>
-<body style="background-color: burlywood;">
-  <h1>Enviando Valores do DOM para o Javascript</h1>
+<body>
+  <h1>Trabalhando com Eventos no Javascript</h1>
   <hr>
 
   <h2>Registre-se!</h2>
@@ -22,8 +23,10 @@
     <label for="passwordConfirmation">Confirme sua senha:</label>
     <input type="password" name="passwordConfirmation" id="passwordConfirmation">
     <br>
-    <button onclick="register(this.parentNode)">Registrar</button> // this.parentNode fará com que o elemento section seja referenciado 
+    <button id="register-button">Registrar</button>
+
+    <button onclick="removeListener()">Botão de remover ouvinte</button>
+    
   </section>
 </body>
-
 </html>

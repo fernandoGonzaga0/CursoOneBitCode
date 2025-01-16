@@ -1,0 +1,19 @@
+Ordem das funções: 
+    
+listaDeTecnologias (ul)
+                        -> form_novaTecnologia (form)  
+                                                        -> h3_novaTeconolgia 
+                                                        -> label_nomeNovaTecnologia
+                                                        -> input_nomeNovaTecnologia
+                                                        -> label_tempoExperiencia 
+                                                                                    -> label_0a2_experiencia
+                                                                                    -> input_0a2_experiencia
+                                                                                    -> label_3a4_experiencia
+                                                                                    -> input_3a4_experiencia
+                                                                                    -> label_5plus_experiencia
+                                                                                    -> input_5plus_experiencia
+                                                        -> botao_apagar
+
+
+
+                                        
