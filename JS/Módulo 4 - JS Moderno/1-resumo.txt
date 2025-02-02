@@ -1,0 +1,11 @@
+Conteúdos)
+
+Situação do JS moderno;
+
+Novos recursos do javascript: template literals, desestrturação, módulos...
+
+Gerenciamento de pacotes com npm;
+
+Compilação de javascript com Babel;
+
+Empacotamento;
