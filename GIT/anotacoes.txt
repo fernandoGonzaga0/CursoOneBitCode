@@ -1,7 +1,0 @@
-git init
-git status
-git add OneBitCode
-cd OneBitCode
-git add .
-git commit -m "Commit a ser feito"
-git push origin main (já que é um submodulo da pasta VisualStudio_Fernando, então n é master)

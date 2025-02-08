@@ -1,0 +1,11 @@
+Abreviação de flexible box, também chamado apenas de 'flex', é um dos possíveis valores da propriedade display.
+
+Para que serve flexbox: utilizado para criar layouts mais flexíveis e responsivos; projetado para lidar com o posicionamento e alinhamento dos elementos em uma página;
+ele torna fácil alinhar elementos, distribuir o espaço de forma proporcional e organizar layouts de forma eficiente, principalmente em sites responsivos.
+
+Conceitos básicos:
+
+Flex Container = o elemento que usa 'display: flex' se torna um flex container, ele engloba os itens que serão organizados.
+Flex Items = os elementos dentro do container flex são chamados de flex items.
+Eixo principal = direção na qual os itens flex serão distribuidos, usando para justificar os itens (padrão: horizontal, da esquerda para direita).
+Eixo perpendicular = direção perpendicular à principal usado para alinhar os itens (padrão: vertical, de cima para baixo).

@@ -9,3 +9,5 @@ Gerenciamento de pacotes com npm;
 Compilação de javascript com Babel;
 
 Empacotamento;
+
+Js é uma linguagem em constante atualização: EcmaScript1 (ES1), ES2, ES3, ES5, ES2016, ES2017, ES2018...;

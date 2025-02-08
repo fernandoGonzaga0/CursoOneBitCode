@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box {
+    background-color: #4547c7;
+    border: 2px solid #272727;
+    height: 10rem;
+    width: 10rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row; /*Aqui selecionamos se o flex será tratado em horizontal ou vertical*/
+    justify-content: space-evenly; /*Justificando o conteúdo conforme o eixo principal (pode ser horizontal ou vertical)*/
+    align-items: end;
+    min-height: 80vh;
+}
+
+.box.red {
+    background-color: #ff665c;
+}
+
+.box.yellow {
+    background-color: #f9ff58;
+    height: 20rem;
+}
+
+.box-blue {
+    background-color: #5255eb;
+    height: 15rem;
+}

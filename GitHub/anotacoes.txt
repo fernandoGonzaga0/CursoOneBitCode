@@ -1,0 +1,20 @@
+Como criar um repositório?
+
+1) Criar novo repositório no GitHub e copiar o HTTPS.
+2) No terminal do vs code, acessar a pasta e seguir os passos abaixo:
+
+    git init
+    git remote add origin https://github.com/seu-usuario/seu-repositorio.git
+    git add .
+    git commit -m "Primeiro commit"
+    git push -u origin main
+
+Como atualizar um repositório?
+
+git init
+git status
+git add OneBitCode
+cd OneBitCode
+git add .
+git commit -m "Commit a ser feito"
+git push origin main (já que é um submodulo da pasta VisualStudio_Fernando, então n é master)
