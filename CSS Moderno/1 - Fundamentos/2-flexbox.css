@@ -4,6 +4,13 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+:root {
+    --first-color: #e7e6e1;
+    --second-color: #f7f6e7;
+    --third-color: #c1c0b9;
+    --fourth-color: #537791;
+}
+
 .box {
     background-color: #4547c7;
     border: 2px solid #272727;
@@ -28,7 +35,7 @@ body {
     height: 20rem;
 }
 
-.box-blue {
+.box.blue {
     background-color: #5255eb;
     height: 15rem;
 }

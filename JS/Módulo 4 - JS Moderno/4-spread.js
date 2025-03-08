@@ -7,7 +7,7 @@ let arr = [2, 4, 1, 5, 2]
 console.log(...arr) // separa as letras 
 console.log(...srt) // separa os números
 
-//Exemplo de por que utilizar o spread em alguns casos
+//Exemplo de por que utilizar o spread em alguns casos *caso abaixo n usa
 const towns = ['São Paulo', 'Belo Horizonte', 'Piauí', 'Recife', 'Goiânia', 'Pato Branco']
 const townsCopy = towns // gerando a constante assim, estaremos referenciando townsCopy em towns, qualquer alteração feita em townsCopy afetará o array original
 townsCopy.pop()

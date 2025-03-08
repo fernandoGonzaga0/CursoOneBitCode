@@ -1,0 +1,59 @@
+/* 
+    flex-grow - crescimento horizontal do elemento
+    flex-shrink - encolhimento do elemento
+    flex-basis - tamanho base do elemento 
+*/
+
+body {
+    background-color: #2c2c2d;
+    color: #fff;
+    font-family: sans-serif;
+  }
+  
+  .flex-container {
+    display: flex;
+  
+    /* as propriedades são baseadas na direção, ao mudar a direção o comportamento também muda */
+    /* flex-direction: column; */
+    /* height: 32rem; */
+  }
+  
+  .flex-item {
+    width: 10rem;
+    /* flex-grow flex-shrink flex-basis */
+  }
+  
+  .box.red {
+     flex-grow: 1; /*criando base de 1 para o flex grow */
+     flex-basis: 15rem;
+  }
+  
+  .box.yellow {
+     flex-grow: 1; /* criando base de 1 para o flex grow */
+     flex-shrink: 1; /*o flex-shrink faz com que o elemento encolha ou não, com 0 sendo não e 1 sendo sim, por padrão vem 1 */ 
+  }
+  
+  .box.blue {
+    flex-grow: 1; /*criando base de 3 para o flex grow */
+  }
+  
+  /* Estilos auxiliares */
+  
+  .box {
+    background-color: #4547c7;
+    border: 2px solid #272727;
+  }
+  
+  .box.red {
+    background-color: #ff665c;
+  }
+  
+  .box.yellow {
+    background-color: #f9ff58;
+    height: 5rem;
+  }
+  
+  .box.blue {
+    background-color: #5255eb;
+    height: 3rem;
+  }
