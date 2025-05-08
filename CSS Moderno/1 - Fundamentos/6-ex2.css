@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+}
+
+h1 {
+    padding: 10px;
+}
+
+.galery {
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 10rem;
+    flex-grow: 1; /*flex-grow em cada imagem fará que cada uma delas ocupe o espaço horizontal máximo possível em uma linha*/
+}

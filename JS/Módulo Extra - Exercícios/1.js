@@ -1,0 +1,1 @@
+// Desenvolver uma função que calcula a média. No entando, a função deve ser capaz de funcionar com qualquer número de 

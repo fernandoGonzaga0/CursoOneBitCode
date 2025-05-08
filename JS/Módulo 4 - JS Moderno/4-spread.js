@@ -27,3 +27,9 @@ const carrosObj = {...carros} // criando uma cópia em objeto
 const carrosObjParaCriacao = {...carrosObj} // após a obtenção do objeto a partir do array, crio outra cópia para inserção de parâmetros novos
 carrosObjParaCriacao.novoCarro = 'Aston Martin'
 console.log({carros, carrosObj, carrosObjParaCriacao})
+
+
+// adicionando um elemento ao final do array
+const predios = ['1', '2', '3']
+const newPredios = [...predios, 5]
+console.log(newPredios)

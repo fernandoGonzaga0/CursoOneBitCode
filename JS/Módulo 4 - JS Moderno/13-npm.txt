@@ -1,0 +1,5 @@
+NPM, ou Node Package Manager, é um gerenciador de pacotes (módulos) do Node.js.
+
+Obs: nodeJs é a ferramenta que permite executar o javascript fora do navegador.
+
+Finalidade: compartilhar, baixar e gerenciar módulos.

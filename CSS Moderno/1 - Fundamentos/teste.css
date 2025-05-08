@@ -1,0 +1,26 @@
+body {
+    background-color: grey;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.box {
+    display: flex; /*nesse momento estou ativando o flexbox dentro da segunda cadeia de divs*/
+    flex-direction: column;
+    background-color: steelblue;
+    color: white;
+    margin: 5px;
+    padding: 20px;
+}
+
+.sub-box {
+    background-color: rgb(110, 33, 33);
+    padding: 10px;
+    text-align: center;
+}
