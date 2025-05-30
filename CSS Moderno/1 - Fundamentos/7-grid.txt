@@ -1,0 +1,11 @@
+O que é? 
+
+Também é um dos valores possíveis da propriedade display. Permite dividir uma página em seções organizadas como uma grade (grid).
+Enquanto o Flexbox é ideal para alinhamento e distribuição de itens em uma única dimensão (linha ou coluna), o Grid foi projetado para trabalhar
+com duas dimensões ao mesmo tempo.
+
+Principais conceitos:
+
+Grid Container: elemento pai, que contém os itens da grade
+Grid Items: elemento filho que será organizado na grade
+Colunas e Linhas: usadas para distribuir e calcular o posicionamento dos itens na grade.

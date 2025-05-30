@@ -1,0 +1,45 @@
+body {
+    background-color: #2c2c2d;
+    color: #fff;
+    text-align: center;
+}
+
+.grid-container {
+    background-color: #fff;
+    min-height: 100vh;
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+
+    /* define tamanhos diferentes para as colunas (serão 3 colunas) */
+    /* grid-template-columns: 10fr 30fr 15fr; */
+     grid-template-columns: repeat(4, 1fr); /*outra forma de criar 4fr, porém com repeat */
+
+    /* definindo o tamanhho para as linhas (serão 4 linhas)*/
+    grid-template-rows: 6rem 6rem 4rem 6rem;
+}
+
+.grid-item {
+    background-color: #4c5caf;
+    padding: 1rem;
+}
+
+.header {
+    grid-column: 1/4;
+    grid-row: 1;
+}
+
+.sidebar {
+    grid-column: 1;
+    grid-row: 2 / 5;
+}
+
+.main {
+    grid-column: 2 / 4;
+    grid-row: 2;
+}
+
+.footer {
+     grid-column: span 2; /*outra forma de ocupar os espaços totais de uma linha/coluna */
+    grid-row: 4;
+}

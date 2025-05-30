@@ -1,0 +1,53 @@
+body {
+    background-color: #2c2c2d;
+    color: #fff;
+    text-align: center;
+}
+
+.grid-container {
+    background-color: #fff;
+    height: 48rem;
+    width: 48rem;
+    padding: 1rem;
+    margin: 0 auto;
+
+    /* ativa o grid display */
+    display: grid;
+    gap: 1rem;
+}
+
+.item {
+    background-color: #4c5caf;
+    padding: 1rem;
+}
+
+.item1 {
+    /* orientando a div por grid row e grid column */
+    grid-column: 1 / 4; /*div está na coluna 2*/
+    grid-row: 1; /*div está na linha 4*/
+}
+
+.item2 {
+    grid-column: 1; /*tenho que colocar que a div vai até a 7 para ele preencher a 6 coluna */
+    grid-row: 2 / 4;
+}
+
+.item3 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.item4 {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.item5 {
+    grid-column: 1 / 4;
+    grid-row: 4;
+}
+
+.item6 {
+    grid-column: 4;
+    grid-row: 1 / 5;
+}
