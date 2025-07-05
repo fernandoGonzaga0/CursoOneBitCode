@@ -1,0 +1,52 @@
+body {
+  background-color: #2c2c2d;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.grid-container {
+    margin: 0 auto;
+    height: 36rem;
+    width: 64rem;
+    gap: 1rem;
+
+    display: grid;
+
+    /*
+    Grid-template-areas -> especificar areas nomeadas dentro da grade, podemos referenciá-as depois
+    */
+
+    grid-template-areas: 
+    
+    "verde amarelo"
+    "azul vermelho";
+
+}
+
+.item {
+    border-radius: .25rem;
+    padding: 1rem;
+}
+
+.header {
+    grid-area: vermelho; /* na grid-area eu seleciono o espaço ditado em grid-template-areas*/
+    background-color: red;
+}
+
+.sidebar {
+    grid-area: azul;
+    background-color: blue;
+
+}
+
+.content {
+    grid-area: amarelo;
+    background-color: yellow;
+
+}
+
+.footer {
+    grid-area: verde;
+    background-color: green;
+}

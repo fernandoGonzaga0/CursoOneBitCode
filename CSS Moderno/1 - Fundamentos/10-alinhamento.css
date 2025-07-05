@@ -1,0 +1,35 @@
+body {
+    background-color: #2c2c2d;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: grid;
+    min-height: 100vh;
+
+    /* OPCAO 1 */
+    /*justify-content: center;  metodo para centralizar conteúdo horizontal */
+    /*align-content: center;  metodo para centralizar conteúdo vertical */
+
+    /* OPCAO 2 */
+    place-content: start center; /* place-content: justify-content align-content*/
+}
+
+.grid-container {
+    background-color: #1c1a1d;
+    padding: 1rem;
+    height: 28rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 8rem 8rem;
+    grid-template-rows: 8rem 8rem;
+    place-content: center center;
+
+    justify-items: center; /*o item em si fica centralizado, como o espaço é pequeno o campo é reduzido para caber*/
+    align-items: center;
+}
+
+.grid-item {
+    background-color: #4c7caf;
+    padding: 1rem;
+
+}
