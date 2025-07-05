@@ -18,3 +18,24 @@ cd OneBitCode
 git add .
 git commit -m "Commit a ser feito"
 git push origin main (já que é um submodulo da pasta VisualStudio_Fernando, então n é master)
+
+✅ 6. Fluxo de trabalho padrão no segundo notebook
+Agora que você tem o repositório clonado, pode começar a trabalhar normalmente:
+
+📥 Para receber atualizações do outro notebook (sincronizar com o GitHub):
+Antes de começar a trabalhar, sempre use:
+
+bash
+Copiar
+Editar
+git pull origin main
+Isso baixa as últimas alterações do repositório remoto para sua máquina local.
+Substitua main pelo nome correto do branch se for diferente.
+
+💾 Após realizar alterações no código:
+bash
+Copiar
+Editar
+git add .
+git commit -m "Descrição das alterações"
+git push origin main
